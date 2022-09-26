@@ -1,0 +1,185 @@
+
+body {
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: #F3F5FC;
+}
+
+.logo {
+    position: absolute;
+    left: 50px;
+    right: 37.43%;
+    top: 50px;
+    bottom: 0%;
+    width: 50px;
+    height: 50px;
+}
+
+.btn-iniciar{
+    width: 317px;
+    height: 114px;
+    padding: 24px;
+
+    position: absolute;
+    top: 15rem;
+    left: 31rem;
+
+    background-color: #0A3871;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.mensaje{
+    display: none;
+    position: absolute;
+    top: 15rem;
+    left: 50rem;
+    color: red;
+    font-size: 24px;
+    font-family: 'Inter',sans-serif;
+}
+
+.btn-nuevo-juego{
+    width: 330px;
+    height: 70px;
+    padding: 24px;
+
+    position: absolute;
+    bottom: 5rem;
+    left: 20rem;
+
+    background-color: #0A3871;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.btn-desistir{
+    width: 330px;
+    height: 70px;
+    padding: 24px;
+
+    position: absolute;
+    bottom: 5rem;
+    left: 43rem;
+
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #0A3871;
+}
+
+.container-nuevo-desistir{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-agregar-palabra{
+    width: 280;
+    height: 67px;
+    padding: 20px;
+
+    position: absolute;
+    top: 23rem;
+    left: 33rem;
+
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #0A3871;
+}
+
+.canvas {
+    margin-left: 2.5rem;
+    width: 1300px;
+    height: 800px
+}
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: #07468f !important;
+    background-color: #afc9eb;
+    height: 15px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold !important;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px) {
+    body {
+        min-width: 375px;
+        min-height: 667px;
+    }
+
+    .logo {
+        left: 4.27%;
+        right: 87.2%;
+        top: 25px;
+        bottom: 25px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .botones-home {
+        top: 16rem;
+        left: 4.2rem;
+    }
+
+    .btn-palabra {
+        width: 200px;
+        height: 57px;
+        left: 1rem;
+        top: 6.5rem;
+        font-size: 18px;
+        line-height: 0;
+    }
+
+    .btn-iniciar {
+        width: 230px;
+        height: 90px;
+        left: 0;
+        top: 0;
+        font-size: 18px;
+        line-height: 10px;
+    }
+
+    .botones-div {
+        flex-wrap: wrap;
+        width: 343px;
+        height: 150px;
+        left: 0;
+        top: 30rem;
+    }
+
+    .text-input {
+        width: 343px;
+        height: auto;
+        left: 16px;
+        top: 152px;
+        font-size: 32px;
+        line-height: 150%;
+    }
+
+    .palabra-nueva {
+        top: 0.4rem;
+        left: 0.1rem;
+    }
+
+    .canvas {
+        margin-left: 2.5rem;
+        width: 1025px;
+        height: 800px;
+    }
+}
